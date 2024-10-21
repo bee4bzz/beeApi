@@ -1,0 +1,30 @@
+name: element_local_storage_api
+description: Dart package which manages the fogo element items locally.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  element_repository:
+    path: ../element_repository
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  intl: any
+  json_annotation: ^4.6.0
+  meta: ^1.7.0
+  rxdart: ^0.28.0
+  sentry: ^8.1.0
+  uuid: ^4.2.1
+
+dev_dependencies:
+  build_runner: ^2.2.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.3.1
+  mocktail: ^0.3.0
+  test: ^1.21.4
+  very_good_analysis: ^5.1.0

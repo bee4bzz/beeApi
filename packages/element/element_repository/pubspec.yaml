@@ -1,0 +1,26 @@
+name: element_repository
+description: Dart package which manages the element items domain.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.6.0
+  meta: ^1.7.0
+  rxdart: ^0.28.0
+  sentry: ^8.1.0
+  uuid: ^4.2.1
+
+dev_dependencies:
+  build_runner: ^2.2.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.3.1
+  mocktail: ^0.3.0
+  test: ^1.21.4
+  very_good_analysis: ^5.1.0
